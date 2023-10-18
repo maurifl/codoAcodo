@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONT -->
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CLIMA -->
+    <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css"
+        media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- BOTON ARRIBA -->
+    <a href="#"><button class="up">Arriba</button></a>
+
+    <!-- LOGO, MENU y HOME -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#">
+                    <h2>D<span>F</span></h2>
+                </a>
+                <ul>
+                    <li><a href="#about">Conóceme</a></li>
+                    <li><a href="#portfolio">Trabajos</a></li>
+                    <li><a href="#contact">Contactenos</a></li>
+                    <!-- <li><a href="#clima">Clima</a></li> -->
+                </ul>
+            </nav>
+        </div>
+
+        <main class="main">
+            <div class="info-content">
+                <h1>Soy <span>Dante</span> Fontana</h1>
+                <p>Developer / Tester Automation</p>
+                <a class="download-cv" href="./doc/CV_QA_DanteFontana.pdf" download=""><button>Descargar CV</button></a>
+            </div>
+        </main>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="img-about">
+            <img src="./img/retrato.png" alt="img about">
+        </div>
+        <div class="about-info">
+            <h2>Sobre mi.</h2>
+            <div class="divider"></div>
+            <p>
+                ¡Hola! Mi nombre es Dante, y soy un apasionado ingeniero de sistemas
+                con experiencia en el desarrollo de pruebas manuales e ingresando al
+                mundo de automation, estoy utilizando tecnologías como Selenium IDE,
+                Selenium WebDriver, Postman, QA manual y Jenkins. Me mantengo en
+                constante capacitación en frontend, mejorando mis habilidades en CSS,
+                HTML, JS y Python.
+            </p>
+            <p>
+                Con poco menos de un año de experiencia en el desarrollo de pruebas,
+                he participado en proyectos emocionantes que me han permitido aprender
+                y crecer profesionalmente. Me enorgullece ser parte de un equipo
+                colaborativo y disfruto trabajando en soluciones innovadoras con
+                desafiantes problemas técnicos.
+            </p>
+            <p>
+                Antes de embarcarme en mi trayectoria como profesional IT, trabajé
+                durante más de 5 años en el área de gastronomía en empresas
+                reconocidas.
+            </p>
+            <a class="download-cv" href="./doc/CV_QA_DanteFontana.pdf" download=""><button>Descargar CV</button></a>
+        </div>
+    </section>
+
+    <!-- SEPARADOR -->
+    <section class="separador" id="historial">
+        <div class="section-content">
+            <div class="brends__wrapp">
+
+                <!-- imagen 1 -->
+                <div class="brends__item" data-aos="anim_scale">
+                    <img src="img/brend1.webp" alt="brend1">
+                </div>
+
+                <!-- imagen 2 -->
+                <div class="brends__item" data-aos="anim_scale">
+                    <img src="img/brend2.webp" alt="brend2">
+                </div>
+
+                <!-- imagen 3 -->
+                <div class="brends__item" data-aos="anim_scale">
+                    <img src="img/brend3.webp" alt="brend3">
+                </div>
+
+                <!-- imagen 4 -->
+                <div class="brends__item" data-aos="anim_scale">
+                    <img src="img/brend4.webp" alt="brend4">
+                </div>
+
+                <!-- imagen 5 -->
+                <!--<div class="brends__item" data-aos="anim_scale">
+                    <img src="img/brend5.webp" alt="brend5">
+                </div>-->
+
+                <!-- imagen 6 -->
+                <!--<div class="brends__item" data-aos="anim_scale">
+                    <img src="img/brend6.webp" alt="brend6">
+                </div>-->
+
+                <!-- imagen 7 -->
+                <!--<div class="brends__item" data-aos="anim_scale">
+                        <img src="img/brends/brend7.webp" alt="brend7">
+                    </div>-->
+
+                <!-- imagen 8 -->
+                <!-- <div class="brends__item" data-aos="anim_scale">
+                        <img src="img/brends/brend8.webp" alt="brend8">
+                    </div>  -->
+            </div>
+        </div>
+    </section>
+
+    <!-- TRABAJOS -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-headings">
+            <h2>Mi Portfolio</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card__img"></div>
+                <div class="card__title">
+                    <h2>Estética NDL</h2>
+                </div>
+                <div class="card__project-links">
+                    <a href="https://github.com/maurifl/NDL" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://esteticandl-69405.firebaseapp.com/" target="_blank">
+                        <i class="fa-solid fa-globe"></i>
+                        <!-- </a>
+                    <a href="#" target="_blank">
+                        <i class="fa-solid fa-code"></i>
+                    </a> -->
+                </div>
+                <div class="project-details-content">
+                    <button class="project-details download-cv">
+                        <a href="proj1.html">Ver más...</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTENOS -->
+    <section class="contact" id="contact">
+        <div class="contact-headings">
+            <h2>Contáctenos</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+            <div class="contact-form">
+                <form class="form" id="form">
+                    <input type="text" placeholder="nombre" id="nombre">
+                    <small class="error-text">Introduce un nombre</small>
+
+                    <input type="email" placeholder="email" id="email">
+                    <small class="error-text">Introduce un email</small>
+
+                    <textarea placeholder="Escribe tu mensaje aquí" cols="30" rows="10" id="mensaje"></textarea>
+                    <small class="error-text">Introduce un mensaje</small>
+
+                    <button class="btn-submit" id="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- API -->
+    <!-- <section class="clima">
+
+    </section> -->
+
+
+
+    <!-- DERECHOS RESERVADOS -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Dante Fontana</h2>
+            <h5>Frontent Developer</h5>
+        </div>
+        <!-- <div class="social-network">
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div> -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</body>
+
+</html>
