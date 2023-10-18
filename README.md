@@ -1,7 +1,8 @@
 # Hola, codoAcodo 👋
 ### Curso de Python
 
-![banner](https://github.com/maurifl/codoAcodo/assets/6419342/4299bbd9-a124-4577-a6bb-017308f1a007)
+
+![lalalala](https://github.com/maurifl/codoAcodo/assets/6419342/968cfc66-31a6-4a26-b09c-1c927c2cffa5)
 
 
 # Proyecto de Portafolio
@@ -79,14 +80,17 @@ Juntos, combinamos nuestras habilidades para crear una solución integral que re
 ## Tecnologías:
 ![html](https://github.com/maurifl/maurifl/assets/6419342/9cf2a397-e594-444e-9026-60d8368b8027)
 ![css](https://github.com/maurifl/maurifl/assets/6419342/c40895d1-ca4f-4356-b810-e78065476628)
-![js](https://github.com/maurifl/codoAcodo/assets/6419342/39c1f40f-3bc2-485a-865d-1c3e5e48c566)
-![mark](https://github.com/maurifl/codoAcodo/assets/6419342/97f46471-6d89-4f6d-95fb-5b0cfaad8e38)
-![py](https://github.com/maurifl/codoAcodo/assets/6419342/35a5e381-54d9-4a84-a5b8-758634d441ac)
-![vue](https://github.com/maurifl/codoAcodo/assets/6419342/110e1639-722e-445e-90b6-685e64f322e9)
+![js](https://github.com/maurifl/maurifl/assets/6419342/18b958d3-68e0-44fd-b2ed-b099294c5ec2)
+![vue](https://github.com/maurifl/maurifl/assets/6419342/614c386a-402d-4620-8b98-9b55ce5564f5)
+![py](https://github.com/maurifl/maurifl/assets/6419342/d5e438c8-5486-45ab-9dd0-7c690b4b0cec)
 ![vscode](https://github.com/maurifl/maurifl/assets/6419342/b9e1917d-c05c-4458-9c84-cad49a653563)
-![fire](https://github.com/maurifl/maurifl/assets/6419342/6b14c69a-54fc-4c2f-904b-01a8cf812cb1)
-![git](https://github.com/maurifl/codoAcodo/assets/6419342/fbe347e9-f4e6-4758-a6f7-5bd168830372)
-![cor21](https://github.com/maurifl/codoAcodo/assets/6419342/e08f41f6-6b6f-46dd-8ba3-1d85470e993b)
-![scrum](https://github.com/maurifl/codoAcodo/assets/6419342/ce3ea27e-1c73-4234-8e64-e76ca01daa18)
+![git](https://github.com/maurifl/maurifl/assets/6419342/aa7c0e77-884a-4736-8b67-da9bbe5adf9b)
+![mark](https://github.com/maurifl/maurifl/assets/6419342/b4565e9f-9e58-4cb8-90e4-3899999bf040)
+![mysql](https://github.com/maurifl/maurifl/assets/6419342/c0f5cb31-a318-4e78-9eca-e5ca8cc7cd6b)
+![fire](https://github.com/maurifl/maurifl/assets/6419342/eb6ddb6f-574d-413e-aecb-f7e9a806f0a7)
+![seleniumIDE](https://github.com/maurifl/maurifl/assets/6419342/aec06bb5-ac30-4c86-8507-5e29f64c3a2f)
+![Jhenkins](https://github.com/maurifl/maurifl/assets/6419342/834868d5-b2bf-402d-b41c-d9fe8dc57b3b)
+![cor21](https://github.com/maurifl/maurifl/assets/6419342/b61fe813-1d3d-4820-8985-1655aa472747)
+![scrum](https://github.com/maurifl/maurifl/assets/6419342/956762f0-6b0c-40ff-83d7-01ba887c534d)
 
 
