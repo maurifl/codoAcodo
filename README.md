@@ -66,6 +66,10 @@ En el futuro, planeamos continuar mejorando y ampliando nuestro portafolio. Algu
 ### __Sandra del Alamo__
    - Dev Front-End Trainee
    - Dev HTML5, CSS3, JavaScript Trainee
+
+### __Lucas Cometto__
+   - Dev Front-End Jr
+   - Dev HTML5, CSS3, JavaScript Jr
      
 ### __Dante Mauricio Fontana Laplagne__
    - Dev Front-End Jr
