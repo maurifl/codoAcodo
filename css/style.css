@@ -1,5 +1,4 @@
 /* ========================== GENERAL ========================== */
-
 *{
     margin: 0;
     padding: 0;
@@ -17,13 +16,11 @@ body{
 }
 
 /* ======================= BOTON ARRIBA ======================== */
-
 a .up{
     display: inline-block;
     position: fixed;
     right: 20px;
-    bottom: 5px;
-    z-index: 1;
+    bottom: 20px;
     padding: 5px 10px;
     border-radius: 50px;
     color: #ffffff;
@@ -32,6 +29,7 @@ a .up{
     background-color: rgb(255, 0, 79);
     box-shadow: 1px 3px 11px 5px rgba(255, 0, 79, .69);
     border: none;
+    z-index: 2;
 }
 
 a .up:hover{
@@ -42,7 +40,6 @@ a .up:hover{
 }
 
 /* ========================== HEADER =========================== */
-
 #header{
     width: 100%;
     height: 100vh;
@@ -144,25 +141,21 @@ h1{
 }
 
 /* =========================== ABOUT =========================== */
-
 .about{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    width: 100%;
-    align-items: center;
-    grid-column: auto;
-    height: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 9em;
 }
 
 .img-about{
-    width: 100%;
-    height: 100%;
-    grid-column: 1/5;
+    flex: 1;  
+    min-width: 300px;
 }
 
 .about-info{
-    grid-column: 5/10;
-    padding: 3em;
+    flex: 2;
+    padding: 20px;
+    min-width: 300px;
 }
 
 .about-info h2{
@@ -187,117 +180,81 @@ h1{
     height: 100%;
 }
 
-/* ======================== SEPARADOR1 ======================== */
-
-.section-content{
-    padding: 100px;
-    background-color: #ffffff;
-}
-
-.brends__wrapp {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	height: auto;
-}
-
-.brends__item {
-	display: flex;
-	align-items: center;
-	width: 25%;
-	padding: 0 40px;
-}
-
-.brends__item img {
-	display: block;
-	width: 80%;
-}
-
 /* ========================= PORTFOLIO ======================== */
-
 .portfolio{
-    width: 100%;
-    height: 100%;
-    background-color: #191c32;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 9em;
 }
 
 .portfolio-headings{
     width: 100%;
     padding: 1em;
+    margin-left: 3em;
 }
 
 .portfolio-headings h2{
     font-size: 2.5em;
 }
 
-.portfolio .container{
-    width: 80vw;
-    height: 80vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.card{
-    width: 300px;
-    height: 400px;
-    background-color: #000000;
-    border-radius: 30px;
-    margin: 1em;
-}
-
-.card__img{
-    width: 100%;
-    height: 150px;
-    background-image: url(../img/proj1/ndl.png);
-    background-size: cover;
-    border-radius: 30px;
-}
-
-.card__title{
-    padding: 20px;
-    text-align: center;
-}
-
-.card__project-links{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.card__project-links a{
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.card__project-links i{
-    font-size: 1.5em;
-}
-
-.card .project-details{
-    margin: 0 auto;
-    margin: 1em;
+.container-port{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
     width: 70%;
+    height: 400px;    
+    transition: 0.5s;
+    margin: auto;
+    margin-bottom: 5em;
 }
 
-.card .project-details:hover{
-    color: #000000;
-    transition: ease-in 0.2s;
+.box{
+    background: var(--image);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
-.card .project-details-content{
-    text-decoration: none;
-    text-transform: uppercase;
+.box:hover{
+    filter: grayscale(1);
 }
 
-.project-details-content{
-    display: flex;
+.page{
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 50px;
+    cursor: pointer;
     width: 100%;
-    justify-content: center;
-    margin-top: 1em;
+    height: 400px;   
+}
+
+/* animacion */
+.container-port:has(.uno:hover){
+    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+
+.container-port:has(.dos:hover){
+    grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr;
+}
+
+.container-port:has(.tres:hover){
+    grid-template-columns: 0.5fr 0.5fr 2fr 0.5fr 0.5fr;
+}
+
+.container-port:has(.cuatro:hover){
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 2fr 0.5fr;
+}
+
+.container-port:has(.cinco:hover){
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 2fr;
+
 }
 
 /* ========================= CONTACTO ======================== */
-
 .contact-headings{
     width: 100%;
     padding: 1em;
@@ -305,6 +262,16 @@ h1{
 
 .contact-headings h2{
     font-size: 3em;
+    margin-left: 1em;
+}
+
+.divider-con{
+    height: 4px;
+    width: 60px;
+    background-color: #ff004f;
+    margin-top: -7px;
+    margin-bottom: 2em;
+    margin-left: 3em;
 }
 
 .container-contact{
@@ -351,8 +318,27 @@ h1{
     cursor: pointer;
 }
 
-/* ========================= FOOTER ======================== */
+/* ========================= CLIMA ========================= */
+#clima-section{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#clima{ 
+    width: 100%;
+    background-color:#000000;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    width: 100%;
+}
+
+/* ========================= FOOTER ======================== */
 .footer{
     display: flex;
     flex-direction: column;
@@ -379,7 +365,7 @@ h1{
 .social-network i{
     margin: 1em;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
 .social-network i:hover{
