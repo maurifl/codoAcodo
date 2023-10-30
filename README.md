@@ -81,7 +81,7 @@ Juntos, combinamos nuestras habilidades para crear una solución integral que re
 
 
 
-## Tecnologías:
+# Tecnologías:
 ![html](https://github.com/maurifl/maurifl/assets/6419342/9cf2a397-e594-444e-9026-60d8368b8027)
 ![css](https://github.com/maurifl/maurifl/assets/6419342/c40895d1-ca4f-4356-b810-e78065476628)
 ![js](https://github.com/maurifl/maurifl/assets/6419342/18b958d3-68e0-44fd-b2ed-b099294c5ec2)
@@ -97,5 +97,5 @@ Juntos, combinamos nuestras habilidades para crear una solución integral que re
 ![cor21](https://github.com/maurifl/maurifl/assets/6419342/b61fe813-1d3d-4820-8985-1655aa472747)
 ![scrum](https://github.com/maurifl/maurifl/assets/6419342/956762f0-6b0c-40ff-83d7-01ba887c534d)
 
-## Visitanos:
+# Visitanos:
 https://my-portfolio-d7f82.firebaseapp.com/tpo1/
